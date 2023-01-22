@@ -1,0 +1,51 @@
+body {
+    display: flex;    
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    font-size: 36px;
+    color: grey;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.game button {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    font-size: 36px;
+    font-weight: bold;
+    border: 0;
+    background-color: lightgray;
+    border-radius: 20%;
+    
+}
+
+.emptyButton:hover {
+    background-color: darkgray;
+}
+
+.humanButton {
+    color: green;
+}
+
+.humanButton:hover {
+    background-color: lightgreen;
+}
+
+.pcButton {
+    color: red;
+}
+
+.pcButton:hover {
+    background-color: pink;
+}
